@@ -11,6 +11,6 @@
     width: 100%;
     height: 40px;
     border-radius: 50% 50% 0 0;
-    border-top: 5px solid var(--primary-btn-color);
+    border-top: 5px solid #31a6fa;
     transform: rotate(-20deg);
 }
