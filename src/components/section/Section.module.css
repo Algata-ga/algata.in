@@ -1,6 +1,6 @@
 .section {
-    width: 100%;
-    height: calc(100vh - 100px);
+    width: 100vw;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;

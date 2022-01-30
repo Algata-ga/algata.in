@@ -1,0 +1,32 @@
+.sec2{
+    display: flex;
+    padding-left: 5%;
+}
+.h1{
+    font-size: 1.9rem;
+    text-align: left;
+}
+.box{
+    width: 45%;
+    height: 33vh;
+    background: var(--primary-boxbg);
+    margin: 2rem;
+    border-radius: 15px;
+}
+.contentbox{
+    width: 55%;
+    margin: 2.5rem 0rem;
+}
+.contentbox .p{
+    font-size: .8rem;
+    width: 80%;
+}
+.arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
