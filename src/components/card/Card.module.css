@@ -1,7 +1,8 @@
-.card{
+.card {
     max-width: 22rem;
     min-width: 13rem;
     background: red;
     margin: 3rem;
     padding: 2rem;
 }
+

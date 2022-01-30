@@ -12,7 +12,8 @@ const Section2 = () => {
                 <div className={style.box}></div>
                 <div className={style.contentbox}>
                     <h1 className={style.h1}>
-                        if exection of <StylizedWord text="idea" /> is the
+                        if exection of{" "}
+                        <StylizedWord text="idea" fontSize="3.2rem" /> is the
                         <br /> problem, make us the <br /> solution.
                     </h1>
                     <p className={style.p}>
@@ -30,4 +31,3 @@ const Section2 = () => {
 };
 
 export default Section2;
-
