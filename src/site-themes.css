@@ -1,0 +1,23 @@
+html {
+    --primary-bgcolor: #ffffff;
+    --primary-btn-color: #31a6fa;
+    --primary-font-color: #000000;
+}
+html[data-theme="dark"] {
+    --primary-bgcolor: #000000;
+    --primary-btn-color: #31a6fa;
+    --primary-font-color: #ffffff;
+}
+html[data-theme="noon"] {
+    --primary-bgcolor: #ffe600;
+    --primary-btn-color: #000000;
+    --primary-font-color: #000000;
+}
+
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *:before,
+html.theme-transition *:after {
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
+}
