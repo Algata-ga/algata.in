@@ -1,12 +1,13 @@
 .nav {
+    width: 100vw;
     background: var(--primary-bgcolor);
     color: var(--primary-font-color);
     display: flex;
     align-items: center;
 }
 .h1 {
-    width: 50%;
-    margin-left: 10%;
+    width: 40%;
+    padding-left: 10%;
     font-size: 2rem;
     font-weight: lighter;
     font-family: MoonTime;
@@ -14,10 +15,10 @@
 .btns {
     display: flex;
     align-items: center;
-    margin-right: 10%;
+    padding-right: 10%;
     justify-content: flex-end;
     color: var(--primary-btn-color);
-    width: 50%;
+    width: 40%;
 }
 .hire {
     width: 80px;
@@ -34,4 +35,5 @@
     margin-left: 10px;
     border: none;
     background: none;
+    font-size: 2rem;
 }
