@@ -7,7 +7,7 @@ npm run build
 cd dist
 echo 'preview.algata.ga' > CNAME
 
-git init
+git init --initial-branch=main
 git add -A
 git commit -m 'deploy'
 

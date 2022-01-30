@@ -1,28 +1,23 @@
-@font-face {
-    font-family: MoonTime;
-    src: url(../FontsFree-Net-MoonTime-Regular-1.ttf);
-}
-.nav{
+.nav {
     background: var(--primary-bgcolor);
     display: flex;
     align-items: center;
 }
-.h1{
+.h1 {
     width: 50%;
     margin-left: 10%;
     font-size: 2rem;
     font-weight: lighter;
     font-family: MoonTime;
 }
-.btns{
+.btns {
     display: flex;
     align-items: center;
     margin-right: 10%;
     justify-content: flex-end;
     width: 50%;
-
 }
-.hire{
+.hire {
     width: 80px;
     height: 35px;
     border: none;
@@ -32,9 +27,10 @@
     border-radius: 10px;
     margin-right: 10px;
 }
-.changer{
+.changer {
     height: 35px;
     margin-left: 10px;
     border: none;
     background: none;
 }
+

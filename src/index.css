@@ -1,20 +1,22 @@
-:root{
-  --primary-bgcolor: white;
-  --primary-btn-color: #31a6fa;
-  --primary-font-color: #000000;
-
+@font-face {
+    font-family: MoonTime;
+    src: url(./assets/FontsFree-Net-MoonTime-Regular-1.ttf);
 }
-
+:root {
+    --primary-bgcolor: white;
+    --primary-btn-color: #31a6fa;
+    --primary-font-color: #000000;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
