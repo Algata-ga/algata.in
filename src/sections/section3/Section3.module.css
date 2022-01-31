@@ -6,6 +6,15 @@
     justify-content: center;
     justify-items: center;
 }
+.btn{
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    color: #ffffff;
+    background: var(--primary-btn-color);
+    width: 200px;
+    height: 50px;
+}
 @media (max-width:1060px) {
     .cards{
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));

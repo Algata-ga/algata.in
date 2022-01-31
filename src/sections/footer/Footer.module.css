@@ -1,0 +1,26 @@
+.icons{
+    width: 100%;
+}
+.p1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Moontime;
+    color: var(--primary-font-color);
+
+}
+.icon{
+    font-size: 2.5rem;
+    margin: 20px;
+    color: var(--primary-font-color);
+}
+.p2{
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Moontime;
+    align-items: flex-end;
+    padding-right: 20px;
+    color: var(--primary-font-color);
+
+}

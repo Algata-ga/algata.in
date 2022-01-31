@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: .35s ease-in-out ;
+
 }
 .card:hover{
     background: #FFFFFF;

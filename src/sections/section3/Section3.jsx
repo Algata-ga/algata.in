@@ -60,6 +60,9 @@ const Section3 = () => {
                     />
                 ))}
             </div>
+            <div>
+                <button className={style.btn}>Explore More</button>
+            </div>
         </Section>
     );
 };

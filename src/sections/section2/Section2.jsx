@@ -7,7 +7,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Section2 = () => {
     return (
-        <Section>
+        <Section height="auto">
             <div className={style.sec2}>
                 <div className={style.box}></div>
                 <div className={style.contentbox}>
