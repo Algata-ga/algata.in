@@ -55,7 +55,7 @@ const Section3 = () => {
         },
     ];
     return (
-        <Section>
+        <Section height="auto">
             <div className={style.cards}>
                 {data.map((card, index) => (
                     <Card
@@ -70,4 +70,3 @@ const Section3 = () => {
     );
 };
 export default Section3;
-
