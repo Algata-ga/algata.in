@@ -1,5 +1,4 @@
 .nav {
-    width: 100vw;
     background: var(--primary-bgcolor);
     color: var(--primary-font-color);
     display: flex;

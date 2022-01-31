@@ -1,20 +1,24 @@
 .sec2{
-    display: flex;
+    width: 90%;
+    display: grid;
     padding-left: 5%;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 .h1{
     font-size: 1.9rem;
     text-align: left;
+    margin-top: 0rem;
 }
 .box{
-    width: 45%;
-    height: 33vh;
+    width: 70%;
+    height: 35vh;
     background: var(--primary-boxbg);
     margin: 2rem;
     border-radius: 15px;
 }
 .contentbox{
-    width: 55%;
     margin: 2.5rem 0rem;
 }
 .contentbox .p{
@@ -29,4 +33,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width:843px) {
+    .box{
+        width: 60%;
+    }
+    .contentbox{
+        width: 80%;
+    }
 }
