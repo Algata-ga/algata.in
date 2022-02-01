@@ -15,7 +15,7 @@ const Navbar = () => {
             <h1 className={style.h1}>Algata</h1>
             <div className={style.btns}>
                 <button className={style.hire}>HIRE US</button>
-                <p>|</p>
+                <p className={style.p}>|</p>
                 <button
                     className={style.changer}
                     onClick={(theme) => setTheme((theme) => (theme + 1) % 3)}

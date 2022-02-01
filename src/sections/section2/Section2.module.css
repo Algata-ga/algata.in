@@ -1,19 +1,24 @@
 .sec2{
-    width: 90%;
+    width: 94%;
+    padding-bottom: 5rem;
     display: grid;
-    padding-left: 5%;
     align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
 }
 .h1{
     font-size: 1.9rem;
     text-align: left;
     margin-top: 0rem;
+    position: relative;
+    z-index: 2;
+    line-height: 3rem;
 }
 .box{
-    width: 70%;
-    height: 35vh;
+    width: 90%;
+    height: auto;
+    height: 40vh;
     background: var(--primary-boxbg);
     margin: 2rem;
     border-radius: 15px;
@@ -28,9 +33,17 @@
 .arrow{
     width: 30px;
     height: 30px;
+    background: transparent;
     border-radius: 50%;
     border: 1px solid var(--primary-font-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
+}
+
+@media (max-width: 749px) {
+    .contentbox{
+        width: 70%;
+    }
 }
