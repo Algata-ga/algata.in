@@ -1,0 +1,117 @@
+.secmodal{
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modalbox{
+    position: relative;
+    width: 85%;
+    height: 50vh;
+    border-radius: 25px;
+    display: flex;
+}
+.svgimg{
+    background: #d4f1ff;
+    width: 35%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 82%;
+    max-height: 40vh;
+
+}
+.contentbox{
+    position: absolute;
+    left: 32%;
+    width: 68%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f1f1f1;
+    align-self: flex-end;
+    border-radius: 25px;
+}
+.h1{
+    font-size: 1.9rem;
+    padding-left: 5%;
+    text-align: left;
+    margin-top: 0rem;
+    position: relative;
+    z-index: 2;
+}
+.p{
+    padding-left: 5%;
+    font-size: .8rem;
+    width: 80%;
+}
+.btn{
+    width: 15rem;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background: #31a6fa;
+    font-size: 1.4rem;
+    color: #ffffff;
+    align-self: center;
+}
+.icons{
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Moontime;
+    color: var(--primary-font-color);
+    font-weight: lighter;
+
+}
+.icon{
+    font-size: 2rem;
+    margin: 20px;
+    color: var(--primary-font-color);
+
+}
+.p2{
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Moontime;
+    align-items: flex-end;
+    padding-right: 20px;
+    color: var(--primary-font-color);
+    font-weight: lighter;
+
+}
+.closebtn{
+    position: relative;
+    top: -25%;
+    color: #ffffff;
+}
+.btnclose{
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.btnclose:hover{
+    color: #000000;
+}
