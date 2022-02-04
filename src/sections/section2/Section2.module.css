@@ -22,9 +22,18 @@
     background: var(--primary-boxbg);
     margin: 2rem;
     border-radius: 15px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.element{
+    height: 90%;
+    width: 100%;
 }
 .contentbox{
     margin: 2.5rem 0rem;
+    padding-left: 1.5rem;
 }
 .contentbox .p{
     font-size: .8rem;
@@ -35,6 +44,7 @@
     height: 30px;
     background: transparent;
     border-radius: 50%;
+    color: var(--primary-font-color);
     border: 1px solid var(--primary-font-color);
     display: flex;
     align-items: center;
@@ -45,5 +55,6 @@
 @media (max-width: 749px) {
     .contentbox{
         width: 70%;
+        padding-left: 0;
     }
 }

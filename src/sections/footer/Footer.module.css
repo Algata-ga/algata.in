@@ -26,3 +26,9 @@
     font-weight: lighter;
 
 }
+@media (max-width:568px) {
+    .icon{
+        margin: 10px;
+        font-size: 2rem;
+    }
+}

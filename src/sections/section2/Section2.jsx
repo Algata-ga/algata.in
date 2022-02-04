@@ -1,5 +1,7 @@
 import style from "./Section2.module.css";
 
+import element from "../../assets/element.svg";
+
 import Section from "../../components/section/Section.jsx";
 import StylizedWord from "../../components/stylizedWord/StylizedWord";
 
@@ -9,7 +11,9 @@ const Section2 = () => {
     return (
         <Section height="auto" padding="5rem">
             <div className={style.sec2}>
-                <div className={style.box}></div>
+                <div className={style.box}>
+                    <img src={element} className={style.element} alt="" />
+                </div>
                 <div className={style.contentbox}>
                     <h1 className={style.h1}>
                         if exection of{" "}

@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className={style.nav}>
             <h1 className={style.h1}>Algata</h1>
             <div className={style.btns}>
-                <button className={style.hire}>HIRE US</button>
+                <button className={style.hire}>Hire Us</button>
                 <p className={style.p}>|</p>
                 <button
                     className={style.changer}

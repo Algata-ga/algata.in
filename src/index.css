@@ -15,10 +15,22 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     scroll-behavior: smooth;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+::-moz-selection {
+    background: var(--primary-selection);
+}
+::selection { 
+    background: var(--primary-selection); 
 }

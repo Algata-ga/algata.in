@@ -11,7 +11,7 @@ const Section4=()=>{
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque maiores veniam fugit in, expedita et suscipit, deleniti magnam cumque culpa accusamus necessitatibus ullam inventore error! Optio dolorum consequuntur repellat magni.
                 </h3>
                 <h4 className={style.h4}>
-                    -Algata Creative Studio
+                    -Team Algata
                 </h4>
             </div>
         </Section>
