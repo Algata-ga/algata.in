@@ -1,5 +1,4 @@
 import style from "./Section3.module.css";
-import Card from "../../components/card/Card";
 
 import img1 from "../../assets/graphic-design.png";
 import img2 from "../../assets/branding.png";
@@ -10,8 +9,18 @@ import img6 from "../../assets/domain.png";
 
 import Section from "../../components/section/Section.jsx";
 import StylizedWord from "../../components/stylizedWord/StylizedWord";
+import Card from "../../components/card/Card";
+
+import ModalMain from "../modal/ModalMain";
+
+import { useState, useRef } from "react";
+
+import useIntersection from "../../utils/useIntersection";
 
 const Section3 = () => {
+    const ref = useRef();
+    const [isModalShown, setModalShown] = useState(false);
+    const isVisible = useIntersection(ref, "100px");
     const data = [
         {
             icon: img1,
@@ -68,6 +77,8 @@ const Section3 = () => {
             <div>
                 <button className={style.btn}>Explore More</button>
             </div>
+            {isVisible && !isModalShown ? <ModalMain /> : null}
+            <span ref={ref}></span>
         </Section>
     );
 };

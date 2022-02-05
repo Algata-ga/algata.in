@@ -1,26 +1,15 @@
-.secmodal{
-    height: 100vh;
-    width: 100%;
-    z-index: 10;
-    position: fixed;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 2%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
-}
-.modalbox{
+.modalbox {
     position: relative;
     width: 85%;
     height: 40vh;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.svgimg{
+.svgimg {
     background: #d4f1ff;
     width: 35%;
     height: 100%;
@@ -31,12 +20,11 @@
     justify-content: center;
     align-items: center;
 }
-.img{
+.img {
     width: 82%;
     max-height: 40vh;
-
 }
-.contentbox{
+.contentbox {
     position: absolute;
     left: 32%;
     width: 68%;
@@ -48,7 +36,7 @@
     align-self: flex-end;
     border-radius: 25px;
 }
-.h1{
+.h1 {
     font-size: 1.9rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -59,14 +47,14 @@
     position: relative;
     z-index: 2;
 }
-.p{
+.p {
     padding-left: 5%;
     padding-right: 5%;
     font-size: 1rem;
     margin-top: 0;
     width: 80%;
 }
-.btn{
+.btn {
     width: 15rem;
     height: 40px;
     border: none;
@@ -77,13 +65,13 @@
     align-self: center;
     margin-top: 1.5rem;
 }
-.icons{
-    width: 100%;   
+.icons {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.p1{
+.p1 {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -91,16 +79,14 @@
     color: var(--primary-font-color);
     font-weight: lighter;
     margin-bottom: 0;
-
 }
-.icon{
+.icon {
     font-size: 2rem;
     margin: 20px;
     color: var(--primary-font-color);
-
 }
 
-.p2{
+.p2 {
     text-align: right;
     font-size: 2.5rem;
     font-weight: bold;
@@ -109,54 +95,52 @@
     padding-right: 20px;
     color: var(--primary-font-color);
     font-weight: lighter;
-
 }
-.closebtn{
+.closebtn {
     position: relative;
     top: -20%;
     color: #ffffff;
 }
-.btnclose{
+.btnclose {
     border: none;
     background: transparent;
     color: #ffffff;
     font-size: 2rem;
 }
-.btnclose:hover{
+.btnclose:hover {
     color: #000000;
 }
 
-
-@media (max-width:776px) {
-    .modalbox{
+@media (max-width: 776px) {
+    .modalbox {
         height: auto;
     }
-    .svgimg{
+    .svgimg {
         width: auto;
         height: 41vh;
         border-top-right-radius: 25px;
     }
-    .contentbox{
+    .contentbox {
         width: 100%;
         position: relative;
         top: -50px;
         left: 0;
     }
-    .closebtn{
+    .closebtn {
         top: 38%;
     }
-    .btnclose{
+    .btnclose {
         font-size: 1.5rem;
     }
 }
-@media (max-width:568px) {
-    .modalbox{
+@media (max-width: 568px) {
+    .modalbox {
         padding-left: 4%;
     }
-    .secmodal{
+    .secmodal {
         overflow-y: scroll;
     }
-    .icon{
+    .icon {
         margin: 12px;
         font-size: 1.5rem;
     }
