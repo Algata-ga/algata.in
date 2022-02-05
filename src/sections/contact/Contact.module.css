@@ -71,13 +71,12 @@
     width: 70%;
     max-width: 15rem;
     height: 40px;
-    border: none;
+    border: 1px solid #31a6fa;
     border-radius: 15px;
-    background: #31a6fa;
+    background: #f0f0f0;
     font-size: 1rem;
-    color: #ffffff;
+    color: #000000;
     align-self: center;
-    margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 .form{
@@ -138,14 +137,8 @@ input,textarea{
 }
 
 .p2 {
-    text-align: right;
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-family: Moontime;
-    align-items: flex-end;
-    padding-right: 20px;
-    color: var(--primary-font-color);
-    font-weight: lighter;
+    text-align: center;
+    margin: 1rem 0;
 }
 .closebtn {
     position: relative;
@@ -170,7 +163,8 @@ input,textarea{
     justify-content: center;
 }
 .btnclose:hover {
-    color: #000000;
+    color: rgb(138, 138, 138);
+    border: 1px solid rgb(138, 138, 138);
 }
 
 @media (max-width: 650px) {

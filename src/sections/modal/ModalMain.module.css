@@ -121,7 +121,8 @@
     justify-content: center;
 }
 .btnclose:hover {
-    color: #000000;
+    color: rgb(138, 138, 138);
+    border: 1px solid rgb(138, 138, 138);
 }
 
 @media (max-width: 650px) {

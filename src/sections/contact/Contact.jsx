@@ -36,6 +36,7 @@ const Contact=()=>{
                         <textarea type="text" id="message" name="message" placeholder="Message" />
                     </form>
                     <button className={style.btn}>Send</button>
+                    <p className={style.p2}>or</p>
                     <button className={style.btn1}>Contact Through Telegram</button>
                 </div>
             </div>
