@@ -13,6 +13,14 @@ const ModalMain = (props) => {
     return (
         <Modal show={modalShow}>
             <div className={style.modalbox}>
+            <div className={style.closebtn}>
+                <button
+                    className={style.btnclose}
+                    onClick={() => setModalShow(false)}
+                >
+                    <AiOutlineClose />
+                </button>
+            </div>
                 <div className={style.svgimg}>
                     <img src={parachute} className={style.img} alt="" />
                 </div>
@@ -61,14 +69,7 @@ const ModalMain = (props) => {
                     </div>
                 </div>
             </div>
-            <div className={style.closebtn}>
-                <button
-                    className={style.btnclose}
-                    onClick={() => setModalShow(false)}
-                >
-                    <AiOutlineClose />
-                </button>
-            </div>
+            
         </Modal>
     );
 };

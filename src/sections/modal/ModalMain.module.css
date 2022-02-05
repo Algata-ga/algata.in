@@ -1,7 +1,8 @@
 .modalbox {
     position: relative;
     width: 85%;
-    height: 40vh;
+    max-width: 70rem;
+    height: 50vh;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -98,12 +99,15 @@
 }
 .closebtn {
     position: relative;
-    top: -20%;
     color: #ffffff;
+    top: -2rem;
+    align-self: flex-end;
 }
 .btnclose {
     border: none;
+    position: absolute;
     background: transparent;
+
     color: #ffffff;
     font-size: 2rem;
 }
@@ -111,37 +115,49 @@
     color: #000000;
 }
 
-@media (max-width: 776px) {
+@media (max-width: 650px) {
     .modalbox {
         height: auto;
     }
     .svgimg {
         width: auto;
-        height: 41vh;
+        position: relative;
+        top: 22px;
+        height: 33vh;
         border-top-right-radius: 25px;
     }
     .contentbox {
         width: 100%;
         position: relative;
-        top: -50px;
+        top: -25px;
         left: 0;
     }
-    .closebtn {
-        top: 38%;
+    .img{
+        height: 33vh;
+    }
+    .closebtn{
+        top: 0;
+        left: -5px;
     }
     .btnclose {
         font-size: 1.5rem;
     }
+    
 }
 @media (max-width: 568px) {
-    .modalbox {
-        padding-left: 4%;
-    }
     .secmodal {
         overflow-y: scroll;
     }
     .icon {
         margin: 12px;
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px) {
+    .h1{
+        font-size: 1.4rem;
+    }
+    .p{
+        font-size: .9rem;
     }
 }
