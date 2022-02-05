@@ -20,7 +20,7 @@ import useIntersection from "../../utils/useIntersection";
 const Section3 = () => {
     const ref = useRef();
     const [isModalShown, setModalShown] = useState(false);
-    const isVisible = useIntersection(ref, "100px");
+    const isVisible = useIntersection(ref, "0px");
     const data = [
         {
             icon: img1,
