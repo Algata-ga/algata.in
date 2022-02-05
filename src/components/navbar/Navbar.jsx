@@ -4,8 +4,9 @@ import style from "./Navbar.module.css";
 import setGlobalTheme from "../../utils/themeSwitcher";
 
 import { BsFillCloudSunFill, BsFillCloudMoonFill, BsSun } from "react-icons/bs";
+import Contact from "../../sections/contact/Contact";
 
-const Navbar = () => {
+const Navbar = (props) => {
     const [theme, setTheme] = useState(0);
     const themes = [<BsFillCloudSunFill />, <BsFillCloudMoonFill />, <BsSun />];
 
@@ -14,7 +15,12 @@ const Navbar = () => {
         <nav className={style.nav}>
             <h1 className={style.h1}>Algata</h1>
             <div className={style.btns}>
-                <button className={style.hire}>Hire Us</button>
+                <button
+                    className={style.hire}
+                    onClick={() => props.showContact(true)}
+                >
+                    Hire Us
+                </button>
                 <p className={style.p}>|</p>
                 <button
                     className={style.changer}

@@ -8,16 +8,19 @@ import Section4 from "./sections/section4/Section4";
 import Footer from "./sections/footer/Footer";
 import Contact from "./sections/contact/Contact";
 
+import { useState } from "react";
+
 function App() {
+    const [showContact, setContactState] = useState(false);
     return (
         <>
-            <Navbar />
+            {showContact && <Contact showContact={setContactState} />}
+            <Navbar showContact={setContactState} />
             <Section1 />
             <Section2 />
             <Section3 />
             <Section4 />
             <Footer />
-            <Contact />
         </>
     );
 }
