@@ -2,7 +2,7 @@
     position: relative;
     width: 85%;
     max-width: 70rem;
-    height: 50vh;
+    height: 70vh;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     transform: translate(-50%, -50%);
 }
 .svgimg {
-    background: #d4f1ff;
+    background: #f0f0f0;
     width: 35%;
     height: 100%;
     border-top-left-radius: 25px;
@@ -38,7 +38,7 @@
     border-radius: 25px;
 }
 .h1 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     padding-left: 5%;
     padding-right: 5%;
     text-align: left;
@@ -67,7 +67,56 @@
     align-self: center;
     margin-top: 1.5rem;
 }
+.btn1{
+    width: 70%;
+    max-width: 15rem;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background: #31a6fa;
+    font-size: 1rem;
+    color: #ffffff;
+    align-self: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input,textarea{
+    max-width: 25rem;
+    width: 80%;
+    margin-top: 1rem;
+    color: black;
+    border-radius: 15px;
+    height: 30px;
+    border: 0px solid ;
+    text-align: center;
+    background: #cacbcd;
+}
+::placeholder{
+    text-align: center;
+}
+::-webkit-input-placeholder { 
+    text-align: center;
+}
+::-moz-placeholder { 
+    text-align: center;
+}
+:-ms-input-placeholder { 
+    text-align: center;
+}
+:-moz-placeholder { 
+    text-align: center;
+}
+
+
 .icons {
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -142,7 +191,7 @@
         left: 0;
     }
     .img{
-        height: 33vh;
+        height: 23vh;
     }
     .closebtn{
         top: 2rem;
@@ -153,6 +202,10 @@
         width: 1.5rem;
         height: 1.5rem;
     }
+    .h1,.p{
+        width: 90%;
+        text-align: center;
+    }
     
 }
 @media (max-width: 568px) {
@@ -162,6 +215,12 @@
     .icon {
         margin: 12px;
         font-size: 1.5rem;
+    }
+    .h1{
+        font-size: 1.6rem;
+    }
+    .p{
+        font-size: .9rem;
     }
 }
 @media (max-width: 400px) {
