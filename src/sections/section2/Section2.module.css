@@ -1,13 +1,13 @@
-.sec2{
+.sec2 {
     width: 94%;
     padding-bottom: 5rem;
     display: grid;
     align-items: center;
     justify-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
 }
-.h1{
+.h1 {
     font-size: 1.9rem;
     text-align: left;
     margin-top: 0rem;
@@ -15,7 +15,7 @@
     z-index: 2;
     line-height: 3rem;
 }
-.box{
+.box {
     width: 90%;
     height: auto;
     height: 40vh;
@@ -27,25 +27,25 @@
     align-items: center;
     justify-content: center;
 }
-.element{
+.element {
     height: 90%;
     width: 100%;
 }
-.contentbox{
+.contentbox {
     margin: 2.5rem 0rem;
     padding-left: 1.5rem;
 }
-.contentbox .p{
-    font-size: .8rem;
+.contentbox .p {
+    font-size: 0.8rem;
     width: 80%;
 }
-.arrow{
-    width: 30px;
-    height: 30px;
+.arrow {
+    width: 35px;
+    height: 35px;
     background: transparent;
     border-radius: 50%;
     color: var(--primary-font-color);
-    border: 1px solid var(--primary-font-color);
+    border: 2px solid var(--primary-font-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,13 +53,14 @@
 }
 
 @media (max-width: 749px) {
-    .contentbox{
+    .contentbox {
         width: 70%;
         padding-left: 0;
     }
 }
-@media (max-width:400px) {
-    .sec2{
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+@media (max-width: 400px) {
+    .sec2 {
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     }
 }
+

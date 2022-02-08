@@ -16,14 +16,16 @@ const Section2 = () => {
                 </div>
                 <div className={style.contentbox}>
                     <h1 className={style.h1}>
-                        if exection of{" "}
-                        <StylizedWord text="idea" fontSize="3.2rem" /> is the
-                        <br /> problem, make us the <br /> solution.
+                        have an <StylizedWord text="idea" fontSize="3.2rem" />{" "}
+                        you want to see on the web, <br />
+                        we can help you with that
                     </h1>
                     <p className={style.p}>
-                        On The Other Hand, We Denounce With Righteous
-                        Indignation And Dislike Men Who Are So Beguiled And
-                        Demoralized By The Charms Of Pleasure Of The Moment
+                        Algata Creative Studio has been helping teams with
+                        having a great online presence with beautiful websites,
+                        marketing campaings, branding and other services. We are
+                        dedicated to making the interweb a beautiful place with
+                        our works.
                     </p>
                     <button className={style.arrow}>
                         <AiOutlineArrowDown />

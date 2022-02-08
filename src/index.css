@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @font-face {
     font-family: MoonTime;
@@ -26,11 +26,11 @@ code {
 }
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 
 ::-moz-selection {
     background: var(--primary-selection);
 }
-::selection { 
-    background: var(--primary-selection); 
+::selection {
+    background: var(--primary-selection);
 }

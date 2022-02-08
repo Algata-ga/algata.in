@@ -27,11 +27,11 @@ const Contact = (props) => {
                     <img src={contact} className={style.img} alt="" />
                 </div>
                 <div className={style.contentbox}>
-                    <h1 className={style.h1}>we will get back to you soon</h1>
+                    <h1 className={style.h1}>Hit us up</h1>
                     <p className={style.p}>
-                        On The Other Hand, We Denounce With Righteous
-                        Indignation And Dislike Men Who Are So Beguiled And
-                        Demoralized By The Charms Of Pleasure Of The Moment
+                        Want to talk to us about your needs? Need a quoatation?
+                        Just want to clear your doubts. You can contact us
+                        anytime or chat with us throught Telegram.
                     </p>
                     <form className={style.form}>
                         <input
@@ -56,7 +56,7 @@ const Contact = (props) => {
                     <button className={style.btn}>Send</button>
                     <p className={style.p2}>or</p>
                     <button className={style.btn1}>
-                        Contact Through Telegram
+                        Chat with us on Telegram
                     </button>
                 </div>
             </div>
