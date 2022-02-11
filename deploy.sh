@@ -5,7 +5,7 @@ set -e
 npm run build
 
 cd dist
-echo 'preview.algata.ga' > CNAME
+echo 'preview.algata.in' > CNAME
 
 git init --initial-branch=main
 git add -A
