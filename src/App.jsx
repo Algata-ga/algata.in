@@ -16,7 +16,7 @@ function App() {
     const [showContact, setContactState] = useState(false);
     useEffect(() => {
         const theme_id =
-            localStorage.getItem("theme_sd") != null
+            localStorage.getItem("theme_id") != null
                 ? localStorage.getItem("theme_id")
                 : window.matchMedia("(prefers-color-scheme: dark)").matche
                 ? 1
