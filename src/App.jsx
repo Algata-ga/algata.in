@@ -8,10 +8,21 @@ import Section4 from "./sections/section4/Section4";
 import Footer from "./sections/footer/Footer";
 import Contact from "./sections/contact/Contact";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+import themeSwitcher from "./utils/themeSwitcher";
 
 function App() {
     const [showContact, setContactState] = useState(false);
+    useEffect(() => {
+        const theme_id =
+            localStorage.getItem("theme_sd") != null
+                ? localStorage.getItem("theme_id")
+                : window.matchMedia("(prefers-color-scheme: dark)").matche
+                ? 1
+                : 0;
+        themeSwitcher(theme_id);
+    }, []);
     return (
         <>
             {showContact && <Contact showContact={setContactState} />}

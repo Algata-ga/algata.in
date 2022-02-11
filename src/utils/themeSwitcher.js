@@ -6,5 +6,6 @@ const setTheme = (theme_id) => {
         () => document.documentElement.classList.remove("theme-transition"),
         1000
     );
+    localStorage.setItem("theme_id", theme_id);
 };
 export default setTheme;
