@@ -7,7 +7,15 @@ import { BsFillCloudSunFill, BsFillCloudMoonFill, BsSun } from "react-icons/bs";
 import Contact from "../../sections/contact/Contact";
 
 const Navbar = (props) => {
-    const [theme, setTheme] = useState(0);
+    const [theme, setTheme] = useState(() => {
+        let theme = localStorage.getItem("theme_id");
+        if (theme === "null") {
+            theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? 1
+                : 0;
+        }
+        return theme;
+    });
     const themes = [<BsFillCloudSunFill />, <BsFillCloudMoonFill />, <BsSun />];
 
     useEffect(() => setGlobalTheme(theme), [theme]);
