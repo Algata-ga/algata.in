@@ -18,7 +18,7 @@ function App() {
         const theme_id =
             localStorage.getItem("theme_id") != null
                 ? localStorage.getItem("theme_id")
-                : window.matchMedia("(prefers-color-scheme: dark)").matche
+                : window.matchMedia("(prefers-color-scheme: dark)").matches
                 ? 1
                 : 0;
         themeSwitcher(theme_id);
