@@ -9,7 +9,7 @@ import Contact from "../../sections/contact/Contact";
 const Navbar = (props) => {
     const [theme, setTheme] = useState(() => {
         let theme = localStorage.getItem("theme_id");
-        if (theme === "null") {
+        if (!theme) {
             theme = window.matchMedia("(prefers-color-scheme: dark)").matches
                 ? 1
                 : 0;
