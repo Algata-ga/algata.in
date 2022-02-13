@@ -2,7 +2,7 @@
 
 set -e
 
-npm run build
+npm run build-preview
 
 cd dist
 echo 'preview.algata.in' > CNAME
