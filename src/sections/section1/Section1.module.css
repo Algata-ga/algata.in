@@ -11,3 +11,8 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+@media (max-width: 568px) {
+    .h1{
+        font-size: 2rem;
+    }
+}

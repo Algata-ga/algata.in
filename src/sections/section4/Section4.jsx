@@ -8,8 +8,8 @@ const Section4 = () => {
         <Section height="auto">
             <div className={style.sec4}>
                 <h3 className={style.h3}>
-                    As the sun rises, as the moon shines, as the starts twinkle,
-                    so will i love you till the end of my life
+                    As the sun rises, as the moon shines, as the stars twinkle,
+                    so will I love you till the end of my life
                 </h3>
                 <h4 className={style.h4}>-Team Algata</h4>
             </div>

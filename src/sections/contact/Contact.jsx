@@ -27,12 +27,14 @@ const Contact = (props) => {
                     <img src={contact} className={style.img} alt="" />
                 </div>
                 <div className={style.contentbox}>
-                    <h1 className={style.h1}>Hit us up</h1>
-                    <p className={style.p}>
-                        Want to talk to us about your needs? Need a quoatation?
-                        Just want to clear your doubts. You can contact us
-                        anytime or chat with us throught Telegram.
-                    </p>
+                    <div className={style.content}>
+                        <h1 className={style.h1}>Hit us up</h1>
+                        <p className={style.p}>
+                            Want to talk to us about your needs? Need a quoatation?
+                            Just want to clear your doubts. You can contact us
+                            anytime or chat with us throught Telegram.
+                        </p>
+                    </div>
                     <form className={style.form}>
                         <input
                             type="text"

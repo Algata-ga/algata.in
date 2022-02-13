@@ -58,6 +58,11 @@
         padding-left: 0;
     }
 }
+@media (max-width: 568px) {
+    .h1{
+        font-size: 1.6rem;
+    }
+}
 @media (max-width: 400px) {
     .sec2 {
         grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));

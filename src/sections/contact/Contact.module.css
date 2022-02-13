@@ -6,6 +6,7 @@
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -37,6 +38,14 @@
     align-self: flex-end;
     border-radius: 25px;
 }
+.content{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .h1 {
     font-size: 1.8rem;
     padding-left: 5%;
@@ -46,6 +55,8 @@
     padding-top: 2rem;
     font-weight: 100;
     position: relative;
+    font-weight: bold;
+    text-transform: capitalize;
     z-index: 2;
 }
 .p {
@@ -91,7 +102,7 @@ input,textarea{
     width: 80%;
     margin-top: 1rem;
     color: black;
-    border-radius: 15px;
+    border-radius: 6px;
     height: 30px;
     border: 0px solid ;
     text-align: center;

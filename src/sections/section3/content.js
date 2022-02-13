@@ -21,7 +21,7 @@ const content = [
     },
     {
         icon: img3,
-        title: "Random Bullshit",
+        title: "Graphic Designing",
         content: "",
     },
 

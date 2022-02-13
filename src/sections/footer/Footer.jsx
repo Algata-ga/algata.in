@@ -2,7 +2,7 @@ import style from "../footer/Footer.module.css";
 
 import Section from "../../components/section/Section";
 
-import { FaTelegram, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaTelegram, FaInstagram, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
@@ -15,8 +15,7 @@ const Footer = () => {
                     </p>
                     <div className={style.icons}>
                         <a href="https://telegram.me/alfredjophy" target="blank" className={style.icon}><FaTelegram /></a>
-                        <a href="#" target="blank" className={style.icon}><FaInstagram /></a>
-                        <a href="#" target="blank" className={style.icon}><FaLinkedin /></a>
+                        <a href="https://www.instagram.com/algata.creative.studio/" target="blank" className={style.icon}><FaInstagram /></a>
                         <a href="https://github.com/Algata-ga" target="blank" className={style.icon}><FaGithub /></a>
                         <a href="mailto:algata.info@gmail.com" target="blank" className={style.icon}><AiOutlineMail /></a>
                     </div>

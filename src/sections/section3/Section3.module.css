@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3, minmax(20rem, 1fr));
     justify-content: center;
     justify-items: center;
+    padding-top: 2rem;
 }
 .btn{
     border: none;
@@ -14,6 +15,7 @@
     background: var(--primary-btn-color);
     width: 200px;
     height: 50px;
+    display: none;
 }
 @media (max-width:1060px) {
     .cards{
