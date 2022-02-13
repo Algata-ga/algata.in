@@ -7,7 +7,7 @@ const Section1 = () => {
     return (
         <Section>
             <h1 className={style.h1}>
-                Delievering The
+                Delivering The
                 <br />
                 Best <StylizedWord text="Web " /> Experiences
             </h1>

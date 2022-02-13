@@ -22,7 +22,8 @@ const content = [
     {
         icon: img3,
         title: "Graphic Designing",
-        content: "",
+        content:
+            "Do you need pretty graphs, designs, backgrounds, characters or anything graphic for your website, the design team would love to hear your thoughs and learn about your project and come up with beautiful graphics for you.",
     },
 
     {

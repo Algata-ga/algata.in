@@ -3,15 +3,29 @@ import style from "../contact/Contact.module.css";
 
 import contact from "../../assets/contact.svg";
 
-import { FaTelegram, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import { AiOutlineMail, AiOutlineClose } from "react-icons/ai";
-
-import { useState } from "react";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Contact = (props) => {
-    //const [show, setShow] = useState(true);
+    const submitForm = async (e) => {
+        //THIS IS BADD...IMEAN REALLY BAD
+        e.preventDefault();
+        const name = e.target.name.value;
+        const message = e.target.message.value;
+        const email = e.target.email.value;
+        const contact_form_url =
+            "https://script.google.com/macros/s/AKfycbwO7_ho1KYrtMTrUyx4yEja90ZskZ_1hrhPI46gXwFT3sV99ro8arIeIhtDeBH6vzNAtw/exec";
+        fetch(contact_form_url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: `name=${name}&email=${email}&message=${message}`,
+        });
+        window.setTimeout(() => null, 500);
+        props.showContact(false);
+    };
     return (
-        <Modal show={true}>
+        <Modal>
             <div className={style.modalbox}>
                 <div className={style.closebtn}>
                     <button
@@ -30,12 +44,13 @@ const Contact = (props) => {
                     <div className={style.content}>
                         <h1 className={style.h1}>Hit us up</h1>
                         <p className={style.p}>
-                            Want to talk to us about your needs? Need a quoatation?
-                            Just want to clear your doubts. You can contact us
-                            anytime or chat with us throught Telegram.
+                            Want to talk to us about your needs? Need a
+                            quoatation? Just want to clear your doubts. You can
+                            contact us anytime or chat with us throught
+                            Telegram.
                         </p>
                     </div>
-                    <form className={style.form}>
+                    <form className={style.form} onSubmit={submitForm}>
                         <input
                             type="text"
                             id="name"
@@ -54,8 +69,12 @@ const Contact = (props) => {
                             name="message"
                             placeholder="Message"
                         />
+                        <input
+                            type="submit"
+                            value="Send"
+                            className={style.btn}
+                        />
                     </form>
-                    <button className={style.btn}>Send</button>
                     <p className={style.p2}>or</p>
                     <button className={style.btn1}>
                         Chat with us on Telegram
