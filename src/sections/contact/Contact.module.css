@@ -38,7 +38,7 @@
     align-self: flex-end;
     border-radius: 25px;
 }
-.content{
+.content {
     width: 90%;
     margin-left: 5%;
     display: flex;
@@ -78,7 +78,7 @@
     align-self: center;
     margin-top: 1.5rem;
 }
-.btn1{
+.btn1 {
     width: 70%;
     max-width: 15rem;
     height: 40px;
@@ -90,40 +90,44 @@
     align-self: center;
     margin-bottom: 1rem;
 }
-.form{
+.a {
+    text-decoration: none;
+    color: #000000;
+}
+.form {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-input,textarea{
+input,
+textarea {
     max-width: 25rem;
     width: 80%;
     margin-top: 1rem;
     color: black;
     border-radius: 6px;
     height: 30px;
-    border: 0px solid ;
+    border: 0px solid;
     text-align: center;
     background: #cacbcd;
 }
-::placeholder{
+::placeholder {
     text-align: center;
 }
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
     text-align: center;
 }
-::-moz-placeholder { 
+::-moz-placeholder {
     text-align: center;
 }
-:-ms-input-placeholder { 
+:-ms-input-placeholder {
     text-align: center;
 }
-:-moz-placeholder { 
+:-moz-placeholder {
     text-align: center;
 }
-
 
 .icons {
     position: relative;
@@ -154,7 +158,7 @@ input,textarea{
 .closebtn {
     position: relative;
     z-index: 2;
-    top: .5rem;
+    top: 0.5rem;
     left: -2.5rem;
     align-self: flex-end;
 }
@@ -168,7 +172,7 @@ input,textarea{
     border-radius: 50%;
     color: #000000;
     font-size: 2rem;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,10 +199,10 @@ input,textarea{
         top: -25px;
         left: 0;
     }
-    .img{
+    .img {
         height: 23vh;
     }
-    .closebtn{
+    .closebtn {
         top: 2rem;
         left: -2.3rem;
     }
@@ -207,11 +211,11 @@ input,textarea{
         width: 1.5rem;
         height: 1.5rem;
     }
-    .h1,.p{
+    .h1,
+    .p {
         width: 90%;
         text-align: center;
     }
-    
 }
 @media (max-width: 568px) {
     .secmodal {
@@ -221,18 +225,18 @@ input,textarea{
         margin: 12px;
         font-size: 1.5rem;
     }
-    .h1{
+    .h1 {
         font-size: 1.6rem;
     }
-    .p{
-        font-size: .9rem;
+    .p {
+        font-size: 0.9rem;
     }
 }
 @media (max-width: 400px) {
-    .h1{
+    .h1 {
         font-size: 1.4rem;
     }
-    .p{
-        font-size: .9rem;
+    .p {
+        font-size: 0.9rem;
     }
 }

@@ -77,7 +77,12 @@ const Contact = (props) => {
                     </form>
                     <p className={style.p2}>or</p>
                     <button className={style.btn1}>
-                        Chat with us on Telegram
+                        <a
+                            className={style.a}
+                            href="https://telegram.me/Algata_bot"
+                        >
+                            Chat with us on Telegram
+                        </a>
                     </button>
                 </div>
             </div>
