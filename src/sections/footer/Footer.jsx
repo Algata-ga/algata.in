@@ -34,7 +34,7 @@ const Footer = () => {
                             <FaGithub />
                         </a>
                         <a
-                            href="mailto:algata.info@gmail.com"
+                            href="mailto:contact@algata.in"
                             target="blank"
                             className={style.icon}
                         >
@@ -49,4 +49,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

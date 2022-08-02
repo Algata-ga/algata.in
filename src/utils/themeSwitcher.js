@@ -9,3 +9,5 @@ const setTheme = (theme_id) => {
     localStorage.setItem("theme_id", theme_id);
 };
 export default setTheme;
+
+

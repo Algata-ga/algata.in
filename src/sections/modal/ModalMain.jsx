@@ -13,14 +13,14 @@ const ModalMain = (props) => {
     return (
         <Modal show={modalShow}>
             <div className={style.modalbox}>
-            <div className={style.closebtn}>
-                <button
-                    className={style.btnclose}
-                    onClick={() => setModalShow(false)}
-                >
-                    <AiOutlineClose />
-                </button>
-            </div>
+                <div className={style.closebtn}>
+                    <button
+                        className={style.btnclose}
+                        onClick={() => setModalShow(false)}
+                    >
+                        <AiOutlineClose />
+                    </button>
+                </div>
                 <div className={style.svgimg}>
                     <img src={parachute} className={style.img} alt="" />
                 </div>
@@ -59,7 +59,7 @@ const ModalMain = (props) => {
                                 <FaGithub />
                             </a>
                             <a
-                                href="mailto:algata.info@gmail.com"
+                                href="mailto:contact@algata.in"
                                 target="blank"
                                 className={style.icon}
                             >
@@ -69,7 +69,6 @@ const ModalMain = (props) => {
                     </div>
                 </div>
             </div>
-            
         </Modal>
     );
 };
