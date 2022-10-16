@@ -1,9 +1,9 @@
-import Designing from "../../assets/graphic-design.png";
+import Designing from "../../assets/graphics.png";
 import Branding from "../../assets/branding.png";
-import ContentWriting from "../../assets/content_.png";
+import ContentWriting from "../../assets/content.png";
 import Hosting from "../../assets/domain.png";
-import Building from "../../assets/gd.png";
-import CloudServices from "../../assets/cloud_services.png";
+import Building from "../../assets/building.png";
+import CloudServices from "../../assets/cloud.png";
 
 const content = [
     {
