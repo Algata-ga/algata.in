@@ -1,14 +1,15 @@
 * {
-    --main-blue: #31a6fa;
+    --main-blue: #6b08a5;
 }
 html {
     --primary-bgcolor: #ffffff;
-    --primary-btn-color: #31a6fa;
+    --primary-btn-color: #6b08a5;
     --primary-font-color: #000000;
     --primary-boxbg: #d3f2ff;
     --primary-boxshadow: rgba(0, 0, 0, 0.12);
     --primary-selection: #929191;
 }
+/*
 html[data-theme="dark"] {
     --primary-bgcolor: #000000;
     --primary-btn-color: #31a6fa;
@@ -17,6 +18,7 @@ html[data-theme="dark"] {
     --primary-boxshadow: rgba(49, 166, 250, 0.28);
     --primary-selection: #3e3e3e;
 }
+
 html[data-theme="noon"] {
     --primary-bgcolor: #ffe600;
     --primary-btn-color: #000000;
@@ -26,6 +28,7 @@ html[data-theme="noon"] {
     --primary-selection: #a1c5e0;
 
 }
+*/
 
 html.theme-transition,
 html.theme-transition *,
