@@ -43,7 +43,6 @@ const Footer = () => {
                     </div>
                 </footer>
             </Section>
-            <p className={style.p2}>-Algata Creative Studio</p>
         </>
     );
 };
