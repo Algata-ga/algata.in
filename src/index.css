@@ -18,6 +18,7 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     scroll-behavior: smooth;
+    color: var(--primary-font-color);
 }
 
 code {
