@@ -11,10 +11,13 @@
     transition: .35s ease-in-out ;
     align-self: normal;
     font-family: "Roboto", sans-serif;
+    text-align: center;
 
 }
+/*
 .card:hover {
     background: var(--primary-bgcolor);
     box-shadow: 0px 19px 24px var(--primary-boxshadow);
     border-radius: 34px;
 }
+*/
