@@ -5,7 +5,7 @@ import StylizedWord from "../../components/stylizedWord/StylizedWord";
 
 const Section1 = () => {
     return (
-        <Section>
+        <Section height="max-content">
             <h1 className={style.h1}>
                 Delivering The
                 <br />
