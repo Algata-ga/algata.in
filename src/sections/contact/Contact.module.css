@@ -72,7 +72,7 @@
     height: 40px;
     border: none;
     border-radius: 15px;
-    background: #31a6fa;
+    background: var(--primary-btn-color);
     font-size: 1.3rem;
     color: #ffffff;
     align-self: center;
@@ -82,7 +82,7 @@
     width: 70%;
     max-width: 15rem;
     height: 40px;
-    border: 1px solid #31a6fa;
+    border: 1px solid var(--primary-btn-color);
     border-radius: 15px;
     background: #f0f0f0;
     font-size: 1rem;
