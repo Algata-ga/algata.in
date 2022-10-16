@@ -11,7 +11,7 @@
     transform: translate(-50%, -50%);
 }
 .svgimg {
-    background: #d4f1ff;
+    background: #f9efff;
     width: 35%;
     height: 100%;
     border-top-left-radius: 25px;
@@ -61,7 +61,7 @@
     height: 40px;
     border: none;
     border-radius: 15px;
-    background: #31a6fa;
+    background: var(--primary-btn-color);
     font-size: 1.3rem;
     color: #ffffff;
     align-self: center;
@@ -75,9 +75,9 @@
 }
 .p1 {
     text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: Moontime;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     color: var(--primary-font-color);
     font-weight: lighter;
     margin-bottom: 0;
@@ -92,7 +92,7 @@
     text-align: right;
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: Moontime;
+    font-family: 'Poppins', sans-serif;
     align-items: flex-end;
     padding-right: 20px;
     color: var(--primary-font-color);
