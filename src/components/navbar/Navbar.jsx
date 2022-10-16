@@ -5,8 +5,9 @@ import setGlobalTheme from "../../utils/themeSwitcher";
 
 import { BsFillCloudSunFill, BsFillCloudMoonFill, BsSun } from "react-icons/bs";
 import Contact from "../../sections/contact/Contact";
-
+import logo from "../../assets/logo.png";
 const Navbar = (props) => {
+    /*
     const [theme, setTheme] = useState(() => {
         let theme = localStorage.getItem("theme_id");
         if (!theme) {
@@ -19,16 +20,20 @@ const Navbar = (props) => {
     const themes = [<BsFillCloudSunFill />, <BsFillCloudMoonFill />, <BsSun />];
 
     useEffect(() => setGlobalTheme(theme), [theme]);
+    */
     return (
-        <nav className={style.nav}>
-            <h1 className={style.h1}>Algata</h1>
-            <div className={style.btns}>
-                <button
-                    className={style.hire}
-                    onClick={() => props.showContact(true)}
-                >
-                    Hire Us
-                </button>
+        <header className={style.header}>
+            <nav className={style.nav}>
+                <a href="/"><img src={logo} className={style.logo} /></a>
+                <div className={style.btns}>
+                    <button
+                        className={style.hire}
+                        onClick={() => props.showContact(true)}
+                    >
+                        Hire Us
+                    </button>
+
+                    {/*
                 <p className={style.p}>|</p>
                 <button
                     className={style.changer}
@@ -36,8 +41,10 @@ const Navbar = (props) => {
                 >
                     {themes[theme]}
                 </button>
-            </div>
-        </nav>
+                */}
+                </div>
+            </nav>
+        </header>
     );
 };
 
