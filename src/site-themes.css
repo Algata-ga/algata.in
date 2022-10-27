@@ -9,26 +9,6 @@ html {
     --primary-boxshadow: rgba(0, 0, 0, 0.12);
     --primary-selection: #929191;
 }
-/*
-html[data-theme="dark"] {
-    --primary-bgcolor: #000000;
-    --primary-btn-color: #31a6fa;
-    --primary-font-color: #ffffff;
-    --primary-boxbg: #cacbcc;
-    --primary-boxshadow: rgba(49, 166, 250, 0.28);
-    --primary-selection: #3e3e3e;
-}
-
-html[data-theme="noon"] {
-    --primary-bgcolor: #ffe600;
-    --primary-btn-color: #000000;
-    --primary-font-color: #000000;
-    --primary-boxbg: #161616;
-    --primary-boxshadow: rgba(0, 0, 0, 0.12);
-    --primary-selection: #a1c5e0;
-
-}
-*/
 
 html.theme-transition,
 html.theme-transition *,
