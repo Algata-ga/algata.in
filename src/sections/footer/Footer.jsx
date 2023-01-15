@@ -20,7 +20,7 @@ const Footer = () => {
                             <FaTelegram />
                         </a>
                         <a
-                            href="https://www.instagram.com/algata.creative.studio/"
+                            href="https://www.instagram.com/algata.in/"
                             target="blank"
                             className={style.icon}
                         >
